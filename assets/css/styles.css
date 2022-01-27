@@ -8,14 +8,6 @@
 ::-webkit-scrollbar {
   width: 10px;
 }
-#linetxt{
-  text-decoration: line-through;
-}
-
-.body {
-  background-image: radial-gradient(circle, #ffc0c3, #fac4da, #edcbed, #dcd3fa, #cadcff, #bfe2ff, #b6e8ff, #afedff, #abf2ff, #a7f6ff, #a6fbfc, #a6fff9);
-}
-
 
 /* Track */
 ::-webkit-scrollbar-track {
