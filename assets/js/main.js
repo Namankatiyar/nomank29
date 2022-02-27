@@ -59,11 +59,8 @@ sr.reveal('.contact__input',{interval: 50});
 /* Dark Mode */
 function darkmode(){
     var element= document.body;
-    element.classList.toggle("dark-mode");
-    swal("Note !!", "CLick on DARK MODE again to switch back to light mode", "info");
-
+    element.classList.toggle("dark-mode")
+    var elem = document.getElementsByClassName("dmbutton");
+    if (elem.value=="Light Mode") elem.value = "Dark Mode";
+    else elem.value = "Light Mode";
 }
-swal({
-    icon: "info",
-    button: "Close",
-})
